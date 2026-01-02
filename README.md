@@ -17,11 +17,3 @@ Great starter project to practice:
 2️⃣ Parse HTML using BeautifulSoup  
 3️⃣ Extract book titles + prices  
 4️⃣ Save results to `books.csv`
-
----
-
-## ▶️ Run the project
-
-```bash
-pip install -r requirements.txt
-python main.py
