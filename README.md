@@ -1,19 +1,22 @@
-# 📚 Book Price Scraper (BeautifulSoup + Python)
+# 📚 Book Price Scraper
 
-This project scrapes book titles and prices from **BooksToScrape** and saves them into a CSV file.
-
-Great starter project to practice:
-
-- Web scraping
-- Data cleaning
-- Working with BeautifulSoup
-- Exporting data to CSV
+A Python web scraper that collects book titles and prices from **Books to Scrape (books.toscrape.com)** and saves them to CSV.  
+Includes pagination — scrapes all available pages automatically.
 
 ---
 
-## 🚀 How it works
+## 🧠 Features
 
-1️⃣ Send request to website  
-2️⃣ Parse HTML using BeautifulSoup  
-3️⃣ Extract book titles + prices  
-4️⃣ Save results to `books.csv`
+✔ Scrapes all pages (not only first)  
+✔ Parses book title and price  
+✔ Saves results into `books_all_pages.csv`  
+✔ Clean code and reusable structure
+
+---
+
+## 🧰 Tech Stack
+
+- Python  
+- requests  
+- BeautifulSoup  
+- pandas
